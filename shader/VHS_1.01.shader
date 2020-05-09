@@ -1,3 +1,6 @@
+//The idea and technique is based on the "VHS tape effect" that was originally written by Gaktan. 
+//The original shader is available at Shadertoy.
+
 uniform float range = 0.10;
 uniform float noiseQuality = 350.0;
 uniform float noiseIntensity = 0.005;
@@ -5,7 +8,6 @@ uniform float offsetIntensity = 0.01;
 uniform float colorOffsetIntensity = 0.25;
 uniform float ScanSpeed = 100.0;
 uniform float ScanPower = 0.0; //0,1
-//uniform float2 uv_scale = {1.0,1.0};
 
 float rand(float2 co) {
 	return frac(sin(dot(co.xy, float2(12.9898, 78.233))) * 43758.5453);

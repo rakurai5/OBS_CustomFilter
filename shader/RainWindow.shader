@@ -1,3 +1,6 @@
+//The idea and technique is based on the "Heartfelt " that was originally written by  BigWIngs. 
+//The original shader is available at Shadertoy.
+
 uniform float size = 7.0;
 uniform float TimeScale = 1.0;
 uniform int PosterizeTime = 1.0;

@@ -14,7 +14,7 @@ float4 mainImage(VertData v_in) : TARGET
 
 	float4 col = 0;
 
-	float blu = BlurC * 5;
+	float blu = BlurC * 5.0;
 	float2 projuv = v_in.uv;
 
 	blu *= 0.01;

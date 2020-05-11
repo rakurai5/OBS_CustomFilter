@@ -69,6 +69,7 @@ float4 mainImage(VertData v_in) : TARGET
     float2 pivot_uv = float2(0.5, 0.5);
     float2 r = (v_in.uv.xy - pivot_uv) * (1 / scale);
     uv2 = mul(ro, r) + pivot_uv;
+    uv2.x *= uv_size.x/uv_size.y;
 
 	float4 col = 0;
 

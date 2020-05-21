@@ -1,10 +1,10 @@
 
-uniform float GlitchXNoiseRate = 35.0; //1,50
+uniform float GlitchXNoiseRate = 120.0; //1,50
 uniform float GlitchXScale = 0.0; //0,1
-uniform float GlitchYNoiseRate = 20.0;
+uniform float GlitchYNoiseRate = 120.0;
 uniform float GlitchYScale = 0.0;
 uniform float NoiseTiling = 1.0;
-uniform float threshold = 1.0;
+uniform float threshold = 0.0;
 uniform bool UseCustomNoiseTex = false;
 uniform texture2d NoiseTex;
 uniform float NoiseTexTiling = 1.0;
